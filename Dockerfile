@@ -1,4 +1,4 @@
 FROM devopsedu/webapp
-ADD rm /var/
+ADD website /var/www/html
 RUN rm /var/www/html/index.html
-CMD apachectl -D FORCEGROUND
+CMD apachectl -D FOREGROUND
